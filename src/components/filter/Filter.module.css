@@ -1,18 +1,18 @@
 .formFilter {
-  min-width: 320px;
-  max-width: 640px;
+  min-width: 300px;
+  max-width: 600px;
   color: rgb(3, 3, 112);
 }
 .formName_label {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  font-size: 24px;
+  font-size: 16px;
 }
 .formName_input {
   color: rgb(3, 3, 112);
   border: 1px solid;
-  font-size: 18px;
+  font-size: 16px;
 }
 .formName_input::placeholder {
   color: rgb(204, 204, 223);

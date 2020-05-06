@@ -73,9 +73,12 @@ export default class App extends Component {
         <h1>Phonebook</h1>
         <ContactForm onHandleForm={this.handleForm} />
         <h2>Contacts</h2>
-        <Filter value={filter} onChangeFilter={this.handleFIlter} />
+        {contacts.length >= 2 && (
+          <Filter value={filter} onChangeFilter={this.handleFIlter} />
+        )}
         <ContactList items={filterContact} onDeleteList={this.deleteList} />
       </div>
     );
   }
 }
+
